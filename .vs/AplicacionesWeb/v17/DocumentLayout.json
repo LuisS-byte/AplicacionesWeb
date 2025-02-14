@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Data\\AppDBContext.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:46:01.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\appsettings.json",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\appsettings.json",
+              "RelativeToolTip": "AplicacionesWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T00:45:20.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
