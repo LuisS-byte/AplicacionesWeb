@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Migrations\\20250214011732_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AplicacionesWeb\\Migrations\\20250214011732_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -35,25 +63,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250214011732_s.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Migrations\\20250214011732_s.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Migrations\\20250214011732_s.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Migrations\\20250214011732_s.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Migrations\\20250214011732_s.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:17:32.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Controllers\\AutorController.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Controllers\\AutorController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:04:44.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Controllers\\LibroController.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Controllers\\LibroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:03:03.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Program.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Program.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Program.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:00:16.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "categoria.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\categoria.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\categoria.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\categoria.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Models\\categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:58:51.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\Autor.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Autor.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:52:40.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\Libro.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Libro.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:52:27.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Data\\AppDBContext.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Data\\AppDBContext.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Data\\AppDBContext.cs",
               "RelativeToolTip": "AplicacionesWeb\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T00:46:01.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\appsettings.json",
               "RelativeDocumentMoniker": "AplicacionesWeb\\appsettings.json",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\appsettings.json",
               "RelativeToolTip": "AplicacionesWeb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-14T00:45:20.41Z",
               "EditorCaption": ""
