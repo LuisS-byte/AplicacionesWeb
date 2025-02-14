@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Migrations\\20250214011732_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AplicacionesWeb\\Migrations\\20250214011732_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\migrations\\20250214011732_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\migrations\\20250214011732_s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|solutionrelative:aplicacionesweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2845737-0EE8-4C9B-9B0E-3B2E4DEEDF06}|AplicacionesWeb\\AplicacionesWeb.csproj|d:\\cursosrealizados\\github\\aplicacionesweb\\aplicacionesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\Autor.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Autor.cs",
+              "RelativeToolTip": "AplicacionesWeb\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:50:40.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\DTOs\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "AplicacionesWeb\\DTOs\\AutorDTO.cs",
+              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\DTOs\\AutorDTO.cs",
+              "RelativeToolTip": "AplicacionesWeb\\DTOs\\AutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:33:31.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20250214011732_s.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Migrations\\20250214011732_s.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Migrations\\20250214011732_s.cs",
@@ -75,20 +105,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AutorController.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\AutorController.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Controllers\\AutorController.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\AutorController.cs",
               "RelativeToolTip": "AplicacionesWeb\\Controllers\\AutorController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T01:04:44.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "LibroController.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Controllers\\LibroController.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Controllers\\LibroController.cs",
@@ -101,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Program.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Program.cs",
@@ -109,64 +139,50 @@
               "RelativeToolTip": "AplicacionesWeb\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T01:00:16.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T01:00:16.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "categoria.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\categoria.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\categoria.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\categoria.cs",
               "RelativeToolTip": "AplicacionesWeb\\Models\\categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T00:58:51.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Autor.cs",
-              "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Autor.cs",
-              "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\Autor.cs",
-              "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Autor.cs",
-              "RelativeToolTip": "AplicacionesWeb\\Models\\Autor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T00:52:40.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Libro.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Libro.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Models\\Libro.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Models\\Libro.cs",
               "RelativeToolTip": "AplicacionesWeb\\Models\\Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T00:52:27.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Data\\AppDBContext.cs",
               "RelativeDocumentMoniker": "AplicacionesWeb\\Data\\AppDBContext.cs",
               "ToolTip": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\Data\\AppDBContext.cs",
               "RelativeToolTip": "AplicacionesWeb\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T00:46:01.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CursosRealizados\\GitHub\\AplicacionesWeb\\AplicacionesWeb\\appsettings.json",
               "RelativeDocumentMoniker": "AplicacionesWeb\\appsettings.json",
@@ -174,8 +190,7 @@
               "RelativeToolTip": "AplicacionesWeb\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T00:45:20.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T00:45:20.41Z"
             }
           ]
         }

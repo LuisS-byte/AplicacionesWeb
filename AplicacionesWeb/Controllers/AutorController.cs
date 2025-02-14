@@ -1,4 +1,5 @@
 ﻿using AplicacionesWeb.Data;
+using AplicacionesWeb.DTOs;
 using AplicacionesWeb.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -26,9 +27,22 @@ namespace AplicacionesWeb.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> AutorPorId(int id)
         {
+
             //Autor autor = await _appDbContext.autores.Include(p).ToListAsync();
-            Autor autor = await _appDbContext.autores.FirstOrDefaultAsync(a => a.Id == id);
-            return Ok(autor);
+            var DTO = await _appDbContext.autores.Include(p => p.Id).FirstOrDefaultAsync(a => a.Id == id);
+
+
+
+            var DTOList = new AutorDTO
+            {
+                Id = DTO.Id,
+                Nombre = DTO.Nombre,
+                Nacionalidad = DTO.Nacionalidad,
+                Libro = DTO.Nombre
+            };
+            return Ok(DTOList);
+
+
         }
     }
 }
