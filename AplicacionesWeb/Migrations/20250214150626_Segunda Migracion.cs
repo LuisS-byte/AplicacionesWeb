@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace AplicacionesWeb.Migrations
 {
     /// <inheritdoc />
-    public partial class primeramigracion : Migration
+    public partial class SegundaMigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -45,9 +44,10 @@ namespace AplicacionesWeb.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AñoPublicación = table.Column<DateOnly>(type: "date", nullable: false),
-                    Resumen = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AutorId = table.Column<int>(type: "int", nullable: false)
+                    AñoPublicación = table.Column<int>(type: "int", nullable: false),
+                    AutorId = table.Column<int>(type: "int", nullable: false),
+                    CategoriaId = table.Column<int>(type: "int", nullable: false),
+                    Resumen = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -58,25 +58,36 @@ namespace AplicacionesWeb.Migrations
                         principalTable: "Autor",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Libro_Categoria_CategoriaId",
+                        column: x => x.CategoriaId,
+                        principalTable: "Categoria",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Libro_AutorId",
                 table: "Libro",
                 column: "AutorId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Libro_CategoriaId",
+                table: "Libro",
+                column: "CategoriaId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Categoria");
-
-            migrationBuilder.DropTable(
                 name: "Libro");
 
             migrationBuilder.DropTable(
                 name: "Autor");
+
+            migrationBuilder.DropTable(
+                name: "Categoria");
         }
     }
 }

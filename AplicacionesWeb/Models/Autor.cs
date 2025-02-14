@@ -1,11 +1,12 @@
-﻿namespace AplicacionesWeb.Models
-{
-    public class Autor
-    {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
+﻿using AplicacionesWeb.Models;
+using System.Text.Json.Serialization;
 
-        public string Nacionalidad { get; set; }
-        public virtual List<string> Libros { get; set; }
-    }
+public class Autor
+{
+    public int Id { get; set; }
+    public string Nombre { get; set; }
+    public string Nacionalidad { get; set; }
+
+    [JsonIgnore] 
+    public ICollection<Libro> Libros { get; set; }
 }

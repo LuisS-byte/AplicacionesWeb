@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "AplicacionesWeb.Controllers.AutorController",
-    "Method": "Lista",
+    "Method": "AutorLista",
     "RelativePath": "api/Autor",
     "HttpMethod": "GET",
     "IsController": true,
@@ -11,9 +11,46 @@
   },
   {
     "ContainingType": "AplicacionesWeb.Controllers.AutorController",
-    "Method": "AutorPorId",
-    "RelativePath": "api/Autor/{id}",
-    "HttpMethod": "GET",
+    "Method": "ActualizarAutor",
+    "RelativePath": "api/Autor/actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "AutorModificar",
+        "Type": "AplicacionesWeb.DTOs.AutorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicacionesWeb.Controllers.AutorController",
+    "Method": "AddAutor",
+    "RelativePath": "api/Autor/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AutorDTO",
+        "Type": "AplicacionesWeb.DTOs.AutorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AplicacionesWeb.Controllers.AutorController",
+    "Method": "EliminarAutor",
+    "RelativePath": "api/Autor/eliminar/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

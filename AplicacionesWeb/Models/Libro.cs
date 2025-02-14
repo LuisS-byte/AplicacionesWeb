@@ -10,5 +10,6 @@
 
         public string Resumen { get; set; }
         public virtual Autor Autor { get; set; }
+        public virtual categoria Categoria { get; set; }
     }
 }
