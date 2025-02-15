@@ -1,6 +1,6 @@
 ﻿using AplicacionesWeb.Data;
 using AplicacionesWeb.DTOs;
-using AplicacionesWeb.Models;   
+using AplicacionesWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,25 +15,27 @@ namespace AplicacionesWeb.Controllers
         {
             _appDbContext = appDbContext;
         }
+
         [HttpGet]
         public async Task<IActionResult> AutorLista()
         {
-            var autores = await _appDbContext.autores
-                .Select(a => new
-                {
-                    IdAutor = a.Id,
-                    NombreAutor = a.Nombre,
-                    NacionalidadAutor = a.Nacionalidad,
-                    Libros = a.Libros.Select(l => new
-                    {
-                        IdLibro = l.Id,
-                        Libro = l.Titulo,
-                        AñoPublicación = l.AñoPublicación,
-                        IdCategoria = l.CategoriaId,
-                        Categoria = l.Categoria.Nombre,
-                        Resumen = l.Resumen
-                    }).ToList()
-                }).ToListAsync();
+            var autores = await (from a in _appDbContext.autores
+                                 select new
+                                 {
+                                     IdAutor = a.Id,
+                                     NombreAutor = a.Nombre,
+                                     NacionalidadAutor = a.Nacionalidad,
+                                     Libros = (from l in a.Libros
+                                               select new
+                                               {
+                                                   IdLibro = l.Id,
+                                                   Libro = l.Titulo,
+                                                   AñoPublicación = l.AñoPublicación,
+                                                   IdCategoria = l.CategoriaId,
+                                                   Categoria = l.Categoria.Nombre,
+                                                   Resumen = l.Resumen
+                                               }).ToList()
+                                 }).ToListAsync();
 
             if (autores == null || !autores.Any())
             {
@@ -43,11 +45,37 @@ namespace AplicacionesWeb.Controllers
             return Ok(autores);
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> ObtenerAutorPorId(int id)
+        {
+            var autor = await (from a in _appDbContext.autores
+                               where a.Id == id
+                               select new
+                               {
+                                   IdAutor = a.Id,
+                                   NombreAutor = a.Nombre,
+                                   NacionalidadAutor = a.Nacionalidad,
+                                   Libros = (from l in a.Libros
+                                             select new
+                                             {
+                                                 IdLibro = l.Id,
+                                                 Libro = l.Titulo,
+                                                 AñoPublicación = l.AñoPublicación,
+                                                 IdCategoria = l.CategoriaId,
+                                                 Categoria = l.Categoria.Nombre,
+                                                 Resumen = l.Resumen
+                                             }).ToList()
+                               }).FirstOrDefaultAsync();
 
+            if (autor == null)
+            {
+                return NotFound($"No se encontró un autor con el ID {id}.");
+            }
 
+            return Ok(autor);
+        }
 
-        [HttpPost]
-        [Route("add")]
+        [HttpPost("add")]
         public async Task<IActionResult> AddAutor([FromBody] AutorDTO AutorDTO)
         {
             var AutorDB = new Autor
@@ -61,10 +89,7 @@ namespace AplicacionesWeb.Controllers
             return Ok(AutorDB);
         }
 
-
-
-        [HttpPut]
-        [Route("actualizar/{id}")]
+        [HttpPut("actualizar/{id}")]
         public async Task<IActionResult> ActualizarAutor(int id, [FromBody] AutorDTO AutorModificar)
         {
             Autor? autorActual = await (from a in _appDbContext.autores
@@ -87,11 +112,7 @@ namespace AplicacionesWeb.Controllers
             return Ok(autorActual);
         }
 
-
-
-
-        [HttpDelete]
-        [Route("eliminar/{id}")]
+        [HttpDelete("eliminar/{id}")]
         public async Task<IActionResult> EliminarAutor(int id)
         {
             Autor? autor = await (from e in _appDbContext.autores
@@ -109,6 +130,5 @@ namespace AplicacionesWeb.Controllers
 
             return Ok(autor);
         }
-
     }
 }
